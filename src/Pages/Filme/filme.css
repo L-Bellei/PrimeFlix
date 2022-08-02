@@ -1,0 +1,74 @@
+.filme-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+
+.filme-info img {
+  width: 600px;
+  height: 400px;
+  max-width: 100%;
+}
+
+.filme-info h1 {
+  padding: 20px;
+}
+
+.filme-info h3 {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  text-align: start;
+  margin-left: 40px;
+}
+
+.filme-info span {
+  margin: 10px 40px;
+  text-align: justify;
+}
+
+.filme-info strong {
+  display: block;
+  margin-top: 20px;
+  background-color: rgb(3, 252, 11);
+  padding: 20px;
+}
+
+.area-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.area-buttons button {
+  margin: 10px 20px;
+  padding: 5px 10px;
+  color: white;
+  background-color: rgb(77, 0, 191);
+  border: 1px solid rgb(77, 0, 191);
+  border: none;
+  font-size: 16px;
+  border-radius: 12px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: .4s;
+}
+
+.area-buttons a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.area-buttons button:hover {
+  color: rgb(77, 0, 191);
+  background-color: white;
+  border: 1px solid rgb(77, 0, 191);
+}
+
+.area-buttons a:hover {
+  color: rgb(77, 0, 191);
+}
