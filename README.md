@@ -9,3 +9,7 @@
 >>> 'react'
 >>> 'react-router-dom'
 >>> 'react-toastify'
+
+#### PARA USO
+
+-> Clone o repositório e execute o comando 'npm start' no terminal.
